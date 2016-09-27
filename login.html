@@ -144,6 +144,7 @@
                 contentType: "application/json; charset=utf-8",
                 type: 'get',
                 url: 'http://demos.pedidosonline.co/Mobile/Loginkey?username='+$("#username").val()+'&codigo_empresa='+$("#codigo_empresa").val()+'&pass='+$("#password").val(),
+                timeout:10000
                 crossDomain: true,
                 //async: false,
                 success: function (data) {
