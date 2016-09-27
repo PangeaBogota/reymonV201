@@ -465,7 +465,7 @@ app_angular.controller('sessionController',['bootbox','Conexion','$scope','$loca
                 }
                 else
                 {
-                    Mensajes('Informacion Procesada','success','');
+                    
                     CRUD.Updatedynamic("update t_pedidos set sincronizado='true' where sincronizado='plano'");
                 }
                 CRUD.Updatedynamic("delete from crm_actividades");
@@ -497,7 +497,7 @@ app_angular.controller('sessionController',['bootbox','Conexion','$scope','$loca
                 }
                 else
                 {
-
+                    Mensajes('Informacion Procesada','success','');
                 }
                 //Guardar Nuevos Datos
                     var contador=0;
